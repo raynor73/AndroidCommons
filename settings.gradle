@@ -1,0 +1,2 @@
+include ':commons'
+rootProject.name='AndroidCommons'
