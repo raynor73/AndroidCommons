@@ -3,14 +3,14 @@ package ilapin.common.android.ui
 import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
-import android.support.v4.app.DialogFragment
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.DialogFragment
 
 class MessageDialog : DialogFragment() {
 
     private lateinit var listener: Listener
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
 
         listener = requireContext() as Listener

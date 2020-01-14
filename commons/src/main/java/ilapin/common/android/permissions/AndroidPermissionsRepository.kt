@@ -1,8 +1,8 @@
 package ilapin.common.android.permissions
 
 import android.content.pm.PackageManager
-import android.support.v4.app.ActivityCompat
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import com.tbruyelle.rxpermissions2.RxPermissions
 import ilapin.common.permissions.Permission
 import ilapin.common.permissions.PermissionRepository

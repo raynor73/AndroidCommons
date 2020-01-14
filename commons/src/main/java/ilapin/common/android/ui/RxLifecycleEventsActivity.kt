@@ -1,6 +1,6 @@
 package ilapin.common.android.ui
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import io.reactivex.subjects.BehaviorSubject
 
 abstract class RxLifecycleEventsActivity : AppCompatActivity() {

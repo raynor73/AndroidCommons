@@ -2,9 +2,10 @@ package ilapin.common.android.ui.widgets;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.support.v7.widget.AppCompatButton;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+
+import androidx.appcompat.widget.AppCompatButton;
 
 public class PressReleaseButton extends AppCompatButton {
 
